@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAA5D35C03AFCED85568F6A /* Pods_IntelliDrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F40CE73239A4E05215B46D /* Pods_IntelliDrive.framework */; };
+		EB17DE8E1EC791E800E561BD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB17DE8D1EC791E800E561BD /* StartViewController.swift */; };
+		EB6C22241EC75AB900CEE475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C22231EC75AB900CEE475 /* AppDelegate.swift */; };
+		EB6C22261EC75AB900CEE475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C22251EC75AB900CEE475 /* ViewController.swift */; };
+		EB6C22291EC75AB900CEE475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6C22271EC75AB900CEE475 /* Main.storyboard */; };
+		EB6C222B1EC75AB900CEE475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6C222A1EC75AB900CEE475 /* Assets.xcassets */; };
+		EB6C222E1EC75AB900CEE475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6C222C1EC75AB900CEE475 /* LaunchScreen.storyboard */; };
+		EB6C22391EC75AB900CEE475 /* IntelliDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C22381EC75AB900CEE475 /* IntelliDriveTests.swift */; };
+		EB6C22441EC75AB900CEE475 /* IntelliDriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C22431EC75AB900CEE475 /* IntelliDriveUITests.swift */; };
+		FCFAFBD2967DE6FDF5DEB1E6 /* Pods_IntelliDriveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137C993C4DB3156CB00363CD /* Pods_IntelliDriveUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6C22351EC75AB900CEE475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6C22181EC75AB900CEE475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6C221F1EC75AB900CEE475;
+			remoteInfo = IntelliDrive;
+		};
+		EB6C22401EC75AB900CEE475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6C22181EC75AB900CEE475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6C221F1EC75AB900CEE475;
+			remoteInfo = IntelliDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F3029A3E80E82C138EF876 /* Pods-IntelliDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliDrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelliDrive/Pods-IntelliDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		137C993C4DB3156CB00363CD /* Pods_IntelliDriveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliDriveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F40CE73239A4E05215B46D /* Pods_IntelliDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntelliDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		957C5AD7ABFB4A98A42A2726 /* Pods-IntelliDriveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliDriveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelliDriveUITests/Pods-IntelliDriveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA282444BE6058B5EF2090C /* Pods-IntelliDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliDrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelliDrive/Pods-IntelliDrive.release.xcconfig"; sourceTree = "<group>"; };
+		E884C91598F79388A448D648 /* Pods-IntelliDriveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelliDriveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelliDriveUITests/Pods-IntelliDriveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB17DE8D1EC791E800E561BD /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		EB6C22201EC75AB900CEE475 /* IntelliDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C22231EC75AB900CEE475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB6C22251EC75AB900CEE475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB6C22281EC75AB900CEE475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB6C222A1EC75AB900CEE475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6C222D1EC75AB900CEE475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB6C222F1EC75AB900CEE475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6C22341EC75AB900CEE475 /* IntelliDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C22381EC75AB900CEE475 /* IntelliDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliDriveTests.swift; sourceTree = "<group>"; };
+		EB6C223A1EC75AB900CEE475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6C223F1EC75AB900CEE475 /* IntelliDriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliDriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C22431EC75AB900CEE475 /* IntelliDriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelliDriveUITests.swift; sourceTree = "<group>"; };
+		EB6C22451EC75AB900CEE475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6C221D1EC75AB900CEE475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAA5D35C03AFCED85568F6A /* Pods_IntelliDrive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C22311EC75AB900CEE475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C223C1EC75AB900CEE475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFAFBD2967DE6FDF5DEB1E6 /* Pods_IntelliDriveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0457FBCC91792D44007E3D10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85F40CE73239A4E05215B46D /* Pods_IntelliDrive.framework */,
+				137C993C4DB3156CB00363CD /* Pods_IntelliDriveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		800E5852E98D06CAB2EF2D26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12F3029A3E80E82C138EF876 /* Pods-IntelliDrive.debug.xcconfig */,
+				BDA282444BE6058B5EF2090C /* Pods-IntelliDrive.release.xcconfig */,
+				957C5AD7ABFB4A98A42A2726 /* Pods-IntelliDriveUITests.debug.xcconfig */,
+				E884C91598F79388A448D648 /* Pods-IntelliDriveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB6C22171EC75AB900CEE475 = {
+			isa = PBXGroup;
+			children = (
+				EB6C22221EC75AB900CEE475 /* IntelliDrive */,
+				EB6C22371EC75AB900CEE475 /* IntelliDriveTests */,
+				EB6C22421EC75AB900CEE475 /* IntelliDriveUITests */,
+				EB6C22211EC75AB900CEE475 /* Products */,
+				800E5852E98D06CAB2EF2D26 /* Pods */,
+				0457FBCC91792D44007E3D10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6C22211EC75AB900CEE475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C22201EC75AB900CEE475 /* IntelliDrive.app */,
+				EB6C22341EC75AB900CEE475 /* IntelliDriveTests.xctest */,
+				EB6C223F1EC75AB900CEE475 /* IntelliDriveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6C22221EC75AB900CEE475 /* IntelliDrive */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C22231EC75AB900CEE475 /* AppDelegate.swift */,
+				EB6C22251EC75AB900CEE475 /* ViewController.swift */,
+				EB17DE8D1EC791E800E561BD /* StartViewController.swift */,
+				EB6C22271EC75AB900CEE475 /* Main.storyboard */,
+				EB6C222A1EC75AB900CEE475 /* Assets.xcassets */,
+				EB6C222C1EC75AB900CEE475 /* LaunchScreen.storyboard */,
+				EB6C222F1EC75AB900CEE475 /* Info.plist */,
+			);
+			path = IntelliDrive;
+			sourceTree = "<group>";
+		};
+		EB6C22371EC75AB900CEE475 /* IntelliDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C22381EC75AB900CEE475 /* IntelliDriveTests.swift */,
+				EB6C223A1EC75AB900CEE475 /* Info.plist */,
+			);
+			path = IntelliDriveTests;
+			sourceTree = "<group>";
+		};
+		EB6C22421EC75AB900CEE475 /* IntelliDriveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6C22431EC75AB900CEE475 /* IntelliDriveUITests.swift */,
+				EB6C22451EC75AB900CEE475 /* Info.plist */,
+			);
+			path = IntelliDriveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6C221F1EC75AB900CEE475 /* IntelliDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6C22481EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDrive" */;
+			buildPhases = (
+				A6DFAC01A1242AAE1AE6478F /* [CP] Check Pods Manifest.lock */,
+				EB6C221C1EC75AB900CEE475 /* Sources */,
+				EB6C221D1EC75AB900CEE475 /* Frameworks */,
+				EB6C221E1EC75AB900CEE475 /* Resources */,
+				98B0382AD4B9D1D1B86097F9 /* [CP] Embed Pods Frameworks */,
+				C0EE89BF14C98EE652ACA1EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelliDrive;
+			productName = IntelliDrive;
+			productReference = EB6C22201EC75AB900CEE475 /* IntelliDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6C22331EC75AB900CEE475 /* IntelliDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6C224B1EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDriveTests" */;
+			buildPhases = (
+				EB6C22301EC75AB900CEE475 /* Sources */,
+				EB6C22311EC75AB900CEE475 /* Frameworks */,
+				EB6C22321EC75AB900CEE475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6C22361EC75AB900CEE475 /* PBXTargetDependency */,
+			);
+			name = IntelliDriveTests;
+			productName = IntelliDriveTests;
+			productReference = EB6C22341EC75AB900CEE475 /* IntelliDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB6C223E1EC75AB900CEE475 /* IntelliDriveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6C224E1EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDriveUITests" */;
+			buildPhases = (
+				191F7FFDE7F7F028983BD2D7 /* [CP] Check Pods Manifest.lock */,
+				EB6C223B1EC75AB900CEE475 /* Sources */,
+				EB6C223C1EC75AB900CEE475 /* Frameworks */,
+				EB6C223D1EC75AB900CEE475 /* Resources */,
+				B388BE2BE337D75E09E04D6B /* [CP] Embed Pods Frameworks */,
+				2891440496CACE02CFD9455D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6C22411EC75AB900CEE475 /* PBXTargetDependency */,
+			);
+			name = IntelliDriveUITests;
+			productName = IntelliDriveUITests;
+			productReference = EB6C223F1EC75AB900CEE475 /* IntelliDriveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6C22181EC75AB900CEE475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = blondiebytes;
+				TargetAttributes = {
+					EB6C221F1EC75AB900CEE475 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63H5SAKBK2;
+						ProvisioningStyle = Automatic;
+					};
+					EB6C22331EC75AB900CEE475 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63H5SAKBK2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB6C221F1EC75AB900CEE475;
+					};
+					EB6C223E1EC75AB900CEE475 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63H5SAKBK2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB6C221F1EC75AB900CEE475;
+					};
+				};
+			};
+			buildConfigurationList = EB6C221B1EC75AB900CEE475 /* Build configuration list for PBXProject "IntelliDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6C22171EC75AB900CEE475;
+			productRefGroup = EB6C22211EC75AB900CEE475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6C221F1EC75AB900CEE475 /* IntelliDrive */,
+				EB6C22331EC75AB900CEE475 /* IntelliDriveTests */,
+				EB6C223E1EC75AB900CEE475 /* IntelliDriveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6C221E1EC75AB900CEE475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6C222E1EC75AB900CEE475 /* LaunchScreen.storyboard in Resources */,
+				EB6C222B1EC75AB900CEE475 /* Assets.xcassets in Resources */,
+				EB6C22291EC75AB900CEE475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C22321EC75AB900CEE475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C223D1EC75AB900CEE475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191F7FFDE7F7F028983BD2D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2891440496CACE02CFD9455D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelliDriveUITests/Pods-IntelliDriveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B0382AD4B9D1D1B86097F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelliDrive/Pods-IntelliDrive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6DFAC01A1242AAE1AE6478F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B388BE2BE337D75E09E04D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelliDriveUITests/Pods-IntelliDriveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EE89BF14C98EE652ACA1EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelliDrive/Pods-IntelliDrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6C221C1EC75AB900CEE475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6C22261EC75AB900CEE475 /* ViewController.swift in Sources */,
+				EB6C22241EC75AB900CEE475 /* AppDelegate.swift in Sources */,
+				EB17DE8E1EC791E800E561BD /* StartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C22301EC75AB900CEE475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6C22391EC75AB900CEE475 /* IntelliDriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6C223B1EC75AB900CEE475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6C22441EC75AB900CEE475 /* IntelliDriveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6C22361EC75AB900CEE475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6C221F1EC75AB900CEE475 /* IntelliDrive */;
+			targetProxy = EB6C22351EC75AB900CEE475 /* PBXContainerItemProxy */;
+		};
+		EB6C22411EC75AB900CEE475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6C221F1EC75AB900CEE475 /* IntelliDrive */;
+			targetProxy = EB6C22401EC75AB900CEE475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB6C22271EC75AB900CEE475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6C22281EC75AB900CEE475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB6C222C1EC75AB900CEE475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6C222D1EC75AB900CEE475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6C22461EC75AB900CEE475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6C22471EC75AB900CEE475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6C22491EC75AB900CEE475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F3029A3E80E82C138EF876 /* Pods-IntelliDrive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB6C224A1EC75AB900CEE475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA282444BE6058B5EF2090C /* Pods-IntelliDrive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB6C224C1EC75AB900CEE475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliDrive.app/IntelliDrive";
+			};
+			name = Debug;
+		};
+		EB6C224D1EC75AB900CEE475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDriveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliDrive.app/IntelliDrive";
+			};
+			name = Release;
+		};
+		EB6C224F1EC75AB900CEE475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957C5AD7ABFB4A98A42A2726 /* Pods-IntelliDriveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IntelliDrive;
+			};
+			name = Debug;
+		};
+		EB6C22501EC75AB900CEE475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E884C91598F79388A448D648 /* Pods-IntelliDriveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63H5SAKBK2;
+				INFOPLIST_FILE = IntelliDriveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blondiebytes.IntelliDriveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IntelliDrive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6C221B1EC75AB900CEE475 /* Build configuration list for PBXProject "IntelliDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6C22461EC75AB900CEE475 /* Debug */,
+				EB6C22471EC75AB900CEE475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6C22481EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6C22491EC75AB900CEE475 /* Debug */,
+				EB6C224A1EC75AB900CEE475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6C224B1EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6C224C1EC75AB900CEE475 /* Debug */,
+				EB6C224D1EC75AB900CEE475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6C224E1EC75AB900CEE475 /* Build configuration list for PBXNativeTarget "IntelliDriveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6C224F1EC75AB900CEE475 /* Debug */,
+				EB6C22501EC75AB900CEE475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6C22181EC75AB900CEE475 /* Project object */;
+}
